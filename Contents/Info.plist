@@ -7,15 +7,15 @@
 	<key>CFBundleName</key>
 	<string>Ruby</string>
     <key>NSHumanReadableCopyright</key>
-	<string>© 2004 Jeff Reinecke
-http://www.paploo.net/~paploo
-Based on the original Coding Monkey's code</string>
+	<string>© 2011 Michael Prins
+http://www.github.com/requnix
+Based on work by Jeff Reinecke and Coding Monkeys</string>
     <key>CFBundleShortVersionString</key>
-	<string>3.0</string>
+	<string>0.1</string>
 	<key>CFBundleVersion</key>
-	<string>3.0</string>
+	<string>0.1</string>
     <key>CFBundleGetInfoString</key>
-	<string>3.0, Copyright Jeff Reinecke 2004, based on the original Ruby mode by The Coding Monkeys.</string>
+	<string>0.1, Copyright Michael Prins 2011, based on the original Ruby mode by The Coding Monkeys which was also updated by Jeff Reinecke.</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleInfoDictionaryVersion</key>

@@ -273,7 +273,7 @@
         <string>ZStream</string>
         <string>fatal</string>
       </keywords>
-      <keywords id="Builtin Globals" color="#a1617a" inverted-color="#9e5e77"  font-style="normal" font-weight="normal" useforautocomplete="yes">
+      <keywords id="Built-in Globals" color="#a1617a" inverted-color="#9e5e77"  font-style="normal" font-weight="normal" useforautocomplete="yes">
         <!--Ones with chars not defined as variable parse chars won't work-->
         <!--Need a clever way around this as adding them makes things not parse right everywhere else-->
         <string>$!</string>
@@ -360,6 +360,12 @@
       </keywords>
       <keywords id="Hexadecimal Characters" color="#00f" useforautocomplete="no">
         <regex>(\\x[0-9a-fA-F]{2,4}|\\x\{[0-9a-fA-F]{2,4}\})</regex>
+      </keywords>
+      <keywords id="Class Names" color="#008c8c" inverted-color="#73ffff"  font-style="normal" font-weight="normal" useforautocomplete="no">
+        <regex>([A-Z][a-z]+)</regex>
+      </keywords>
+      <keywords id="Constants" color="#0000cc" inverted-color="#7d9ffa"  font-style="normal" font-weight="normal" useforautocomplete="no">
+        <regex>([A-Z][_A-Z]+)</regex>
       </keywords>
       
       <state id="String with double quotes" type="string" color="#760f15" inverted-color="#f28720"  font-style="normal" font-weight="normal" usespellchecking="yes">
